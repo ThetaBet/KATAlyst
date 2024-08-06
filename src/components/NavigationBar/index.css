@@ -1,0 +1,29 @@
+.navigation {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px 3px #CCC5C5;
+    padding: 16px;
+    background-color: #FFF;
+    gap: 32px;
+}
+
+.navigation-title {
+    font-size: 32px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #292929;
+}
+
+.navigation-link:hover {
+    text-decoration: underline;
+}
+
+.navigation-link:visited {
+    color: #292929;
+}
